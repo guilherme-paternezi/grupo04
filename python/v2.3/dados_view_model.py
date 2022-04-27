@@ -51,10 +51,6 @@ estado = {} \
     
     def gerar_etnia(self):
         valor = randint(0, 100)
-        if self.classe_social == "Baixa":
-            valor = valor + 5
-        elif self.classe_social == "Alta":
-            valor = valor - 5
         etnia = ""
         if valor < 43:
             etnia = "Branca"
