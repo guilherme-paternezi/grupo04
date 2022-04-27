@@ -136,7 +136,7 @@ estado = {} \
         if valor_social < 6:
             classe_social = "Alta"
         elif valor_social < 53:
-            classe_social = "Media"
+            classe_social = "Média"
         else:
             classe_social = "Baixa"
         return classe_social

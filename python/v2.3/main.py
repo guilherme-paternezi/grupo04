@@ -73,7 +73,8 @@ def cenario(cursor):
         return
     if valor == 9:
         return False
-    print("Opção inválida")
+    else:
+        print("Opção inválida")
 
 
 def select(cursor):
