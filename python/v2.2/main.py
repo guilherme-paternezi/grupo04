@@ -16,12 +16,11 @@ def transactions(cursor, init, final, step):
     lista = []
     lista_tempo = []
     lista_memoria = []
-    # Criação dos valores do Range
+    
     for n in range(init, final, step):
         lista.append(n)
     tracemalloc.start()
     tempo_inicial = (time.time())
-    # Inserção dos valores, pegando o tempo e o espaço ocupado na memória.
     while(lista != []):
         transaction.append(lista.pop())
         lista_memoria.append(tracemalloc.get_traced_memory()[0])
@@ -31,7 +30,6 @@ def transactions(cursor, init, final, step):
 
     tracemalloc.stop()
     orderedTranscation = [num for num in reversed(transaction)]
-    # Inserção no Banco
     tempo_inical_insercao = (datetime.now())
     while(orderedTranscation != []):
         transac = orderedTranscation.pop()
