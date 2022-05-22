@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+ <root>
+     <row>
+         <Territorialidades>BR</Territorialidades>
+         <Média de anos de estudo 2017>8.22</Média de anos de estudo 2017>
+         <IDHM Educação 2017>0.74</IDHM Educação 2017>
+         <IDHM Longevidade 2017>0.85</IDHM Longevidade 2017>
+         <IDHM Renda 2017>0.75</IDHM Renda 2017>
+         <IDHM 2017>0.778</IDHM 2017>
+     </row>
+     <row>
+         <Territorialidades>AC</Territorialidades>
+         <Média de anos de estudo 2017>7.09</Média de anos de estudo 2017>
+         <IDHM Educação 2017>0.68</IDHM Educação 2017>
+         <IDHM Longevidade 2017>0.82</IDHM Longevidade 2017>
+         <IDHM Renda 2017>0.66</IDHM Renda 2017>
+         <IDHM 2017>0.719</IDHM 2017>
+     </row>
+     <row>
+         <Territorialidades>AL</Territorialidades>
+         <Média de anos de estudo 2017>6.38</Média de anos de estudo 2017>
+         <IDHM Educação 2017>0.64</IDHM Educação 2017>
+         <IDHM Longevidade 2017>0.78</IDHM Longevidade 2017>
+         <IDHM Renda 2017>0.64</IDHM Renda 2017>
+         <IDHM 2017>0.683</IDHM 2017>
+     </row>
+     <row>
+         <Territorialidades>AP</Territorialidades>
+         <Média de anos de estudo 2017>8.7</Média de anos de estudo 2017>
+         <IDHM Educação 2017>0.71</IDHM Educação 2017>
+         <IDHM Longevidade 2017>0.82</IDHM Longevidade 2017>
+         <IDHM Renda 2017>0.7</IDHM Renda 2017>
+         <IDHM 2017>0.74</IDHM 2017>
+     </row>
+     <row>
+         <Territorialidades>AM</Territorialidades>
+         <Média de anos de estudo 2017>8.5</Média de anos de estudo 2017>
+         <IDHM Educação 2017>0.74</IDHM Educação 2017>
+         <IDHM Longevidade 2017>0.79</IDHM Longevidade 2017>
+         <IDHM Renda 2017>0.68</IDHM Renda 2017>
+         <IDHM 2017>0.733</IDHM 2017>
+     </row>
+     <row>
+         <Territorialidades>BA</Territorialidades>
+         <Média de anos de estudo 2017>7.04</Média de anos de estudo 2017>
+         <IDHM Educação 2017>0.65</IDHM Educação 2017>
+         <IDHM Longevidade 2017>0.81</IDHM Longevidade 2017>
+         <IDHM Renda 2017>0.69</IDHM Renda 2017>
+         <IDHM 2017>0.714</IDHM 2017>
+     </row>
+     <row>
+         <Territorialidades>CE</Territorialidades>
+         <Média de anos de estudo 2017>7.06</Média de anos de estudo 2017>
+         <IDHM Educação 2017>0.72</IDHM Educação 2017>
+         <IDHM Longevidade 2017>0.82</IDHM Longevidade 2017>
+         <IDHM Renda 2017>0.68</IDHM Renda 2017>
+         <IDHM 2017>0.735</IDHM 2017>
+     </row>
+     <row>
+         <Territorialidades>DF</Territorialidades>
+         <Média de anos de estudo 2017>10.33</Média de anos de estudo 2017>
+         <IDHM Educação 2017>0.8</IDHM Educação 2017>
+         <IDHM Longevidade 2017>0.89</IDHM Longevidade 2017>
+         <IDHM Renda 2017>0.86</IDHM Renda 2017>
+         <IDHM 2017>0.85</IDHM 2017>
+     </row>
+     <row>
+         <Territorialidades>ES</Territorialidades>
+         <Média de anos de estudo 2017>8.29</Média de anos de estudo 2017>
+         <IDHM Educação 2017>0.73</IDHM Educação 2017>
+         <IDHM Longevidade 2017>0.85</IDHM Longevidade 2017>
+         <IDHM Renda 2017>0.74</IDHM Renda 2017>
+         <IDHM 2017>0.772</IDHM 2017>
+     </row>
+     <row>
+         <Territorialidades>GO</Territorialidades>
+         <Média de anos de estudo 2017>8.11</Média de anos de estudo 2017>
+         <IDHM Educação 2017>0.74</IDHM Educação 2017>
+         <IDHM Longevidade 2017>0.82</IDHM Longevidade 2017>
+         <IDHM Renda 2017>0.75</IDHM Renda 2017>
+         <IDHM 2017>0.769</IDHM 2017>
+     </row>
+     <row>
+         <Territorialidades>MA</Territorialidades>
+         <Média de anos de estudo 2017>6.51</Média de anos de estudo 2017>
+         <IDHM Educação 2017>0.68</IDHM Educação 2017>
+         <IDHM Longevidade 2017>0.76</IDHM Longevidade 2017>
+         <IDHM Renda 2017>0.62</IDHM Renda 2017>
+         <IDHM 2017>0.687</IDHM 2017>
+     </row>
+     <row>
+         <Territorialidades>MS</Territorialidades>
+         <Média de anos de estudo 2017>8.11</Média de anos de estudo 2017>
+         <IDHM Educação 2017>0.71</IDHM Educação 2017>
+         <IDHM Longevidade 2017>0.85</IDHM Longevidade 2017>
+         <IDHM Renda 2017>0.75</IDHM Renda 2017>
+         <IDHM 2017>0.766</IDHM 2017>
+     </row>
+     <row>
+         <Territorialidades>MT</Territorialidades>
+         <Média de anos de estudo 2017>7.93</Média de anos de estudo 2017>
+         <IDHM Educação 2017>0.76</IDHM Educação 2017>
+         <IDHM Longevidade 2017>0.83</IDHM Longevidade 2017>
+         <IDHM Renda 2017>0.74</IDHM Renda 2017>
+         <IDHM 2017>0.774</IDHM 2017>
+     </row>
+     <row>
+         <Territorialidades>MG</Territorialidades>
+         <Média de anos de estudo 2017>7.97</Média de anos de estudo 2017>
+         <IDHM Educação 2017>0.75</IDHM Educação 2017>
+         <IDHM Longevidade 2017>0.88</IDHM Longevidade 2017>
+         <IDHM Renda 2017>0.74</IDHM Renda 2017>
+         <IDHM 2017>0.787</IDHM 2017>
+     </row>
+     <row>
+         <Territorialidades>PB</Territorialidades>
+         <Média de anos de estudo 2017>6.85</Média de anos de estudo 2017>
+         <IDHM Educação 2017>0.67</IDHM Educação 2017>
+         <IDHM Longevidade 2017>0.81</IDHM Longevidade 2017>
+         <IDHM Renda 2017>0.69</IDHM Renda 2017>
+         <IDHM 2017>0.722</IDHM 2017>
+     </row>
+     <row>
+         <Territorialidades>PR</Territorialidades>
+         <Média de anos de estudo 2017>8.22</Média de anos de estudo 2017>
+         <IDHM Educação 2017>0.76</IDHM Educação 2017>
+         <IDHM Longevidade 2017>0.84</IDHM Longevidade 2017>
+         <IDHM Renda 2017>0.77</IDHM Renda 2017>
+         <IDHM 2017>0.792</IDHM 2017>
+     </row>
+     <row>
+         <Territorialidades>PA</Territorialidades>
+         <Média de anos de estudo 2017>7.32</Média de anos de estudo 2017>
+         <IDHM Educação 2017>0.66</IDHM Educação 2017>
+         <IDHM Longevidade 2017>0.79</IDHM Longevidade 2017>
+         <IDHM Renda 2017>0.65</IDHM Renda 2017>
+         <IDHM 2017>0.698</IDHM 2017>
+     </row>
+     <row>
+         <Territorialidades>PE</Territorialidades>
+         <Média de anos de estudo 2017>7.32</Média de anos de estudo 2017>
+         <IDHM Educação 2017>0.69</IDHM Educação 2017>
+         <IDHM Longevidade 2017>0.82</IDHM Longevidade 2017>
+         <IDHM Renda 2017>0.68</IDHM Renda 2017>
+         <IDHM 2017>0.727</IDHM 2017>
+     </row>
+     <row>
+         <Territorialidades>PI</Territorialidades>
+         <Média de anos de estudo 2017>6.56</Média de anos de estudo 2017>
+         <IDHM Educação 2017>0.67</IDHM Educação 2017>
+         <IDHM Longevidade 2017>0.77</IDHM Longevidade 2017>
+         <IDHM Renda 2017>0.66</IDHM Renda 2017>
+         <IDHM 2017>0.697</IDHM 2017>
+     </row>
+     <row>
+         <Territorialidades>RJ</Territorialidades>
+         <Média de anos de estudo 2017>9.28</Média de anos de estudo 2017>
+         <IDHM Educação 2017>0.76</IDHM Educação 2017>
+         <IDHM Longevidade 2017>0.86</IDHM Longevidade 2017>
+         <IDHM Renda 2017>0.77</IDHM Renda 2017>
+         <IDHM 2017>0.796</IDHM 2017>
+     </row>
+     <row>
+         <Territorialidades>RN</Territorialidades>
+         <Média de anos de estudo 2017>7.24</Média de anos de estudo 2017>
+         <IDHM Educação 2017>0.68</IDHM Educação 2017>
+         <IDHM Longevidade 2017>0.85</IDHM Longevidade 2017>
+         <IDHM Renda 2017>0.68</IDHM Renda 2017>
+         <IDHM 2017>0.731</IDHM 2017>
+     </row>
+     <row>
+         <Territorialidades>RS</Territorialidades>
+         <Média de anos de estudo 2017>8.52</Média de anos de estudo 2017>
+         <IDHM Educação 2017>0.73</IDHM Educação 2017>
+         <IDHM Longevidade 2017>0.85</IDHM Longevidade 2017>
+         <IDHM Renda 2017>0.79</IDHM Renda 2017>
+         <IDHM 2017>0.787</IDHM 2017>
+     </row>
+     <row>
+         <Territorialidades>RO</Territorialidades>
+         <Média de anos de estudo 2017>7.26</Média de anos de estudo 2017>
+         <IDHM Educação 2017>0.7</IDHM Educação 2017>
+         <IDHM Longevidade 2017>0.78</IDHM Longevidade 2017>
+         <IDHM Renda 2017>0.7</IDHM Renda 2017>
+         <IDHM 2017>0.725</IDHM 2017>
+     </row>
+     <row>
+         <Territorialidades>RR</Territorialidades>
+         <Média de anos de estudo 2017>8.96</Média de anos de estudo 2017>
+         <IDHM Educação 2017>0.77</IDHM Educação 2017>
+         <IDHM Longevidade 2017>0.78</IDHM Longevidade 2017>
+         <IDHM Renda 2017>0.71</IDHM Renda 2017>
+         <IDHM 2017>0.752</IDHM 2017>
+     </row>
+     <row>
+         <Territorialidades>SC</Territorialidades>
+         <Média de anos de estudo 2017>8.6</Média de anos de estudo 2017>
+         <IDHM Educação 2017>0.78</IDHM Educação 2017>
+         <IDHM Longevidade 2017>0.87</IDHM Longevidade 2017>
+         <IDHM Renda 2017>0.78</IDHM Renda 2017>
+         <IDHM 2017>0.808</IDHM 2017>
+     </row>
+     <row>
+         <Territorialidades>SP</Territorialidades>
+         <Média de anos de estudo 2017>9.32</Média de anos de estudo 2017>
+         <IDHM Educação 2017>0.83</IDHM Educação 2017>
+         <IDHM Longevidade 2017>0.85</IDHM Longevidade 2017>
+         <IDHM Renda 2017>0.8</IDHM Renda 2017>
+         <IDHM 2017>0.826</IDHM 2017>
+     </row>
+     <row>
+         <Territorialidades>SE</Territorialidades>
+         <Média de anos de estudo 2017>7.06</Média de anos de estudo 2017>
+         <IDHM Educação 2017>0.64</IDHM Educação 2017>
+         <IDHM Longevidade 2017>0.8</IDHM Longevidade 2017>
+         <IDHM Renda 2017>0.68</IDHM Renda 2017>
+         <IDHM 2017>0.702</IDHM 2017>
+     </row>
+     <row>
+         <Territorialidades>TO</Territorialidades>
+         <Média de anos de estudo 2017>7.69</Média de anos de estudo 2017>
+         <IDHM Educação 2017>0.73</IDHM Educação 2017>
+         <IDHM Longevidade 2017>0.81</IDHM Longevidade 2017>
+         <IDHM Renda 2017>0.7</IDHM Renda 2017>
+         <IDHM 2017>0.743</IDHM 2017>
+     </row>
+ </root>
