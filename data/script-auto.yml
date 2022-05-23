@@ -102,9 +102,15 @@ Resources:
       Type: 'AWS::S3::Bucket'
       DeletionPolicy: Retain
       Properties:
-        BucketName: teste-cf-stack-pater
+        BucketName: !Sub ${AWS::StackName}-${Client}-raw-data
         AccessControl: Private
-          
+  S3Bucket2:
+    Type: 'AWS::S3::Bucket'
+    DeletionPolicy: Retain
+    Properties:
+      BucketName: !Sub ${AWS::StackName}-${Client}-data-transform
+      AccessControl: Private       
+  
   PublicRouteTableRouteInternet:
     DependsOn: [PublicRouteTable, InternetGateway]
     Type: AWS::EC2::Route
