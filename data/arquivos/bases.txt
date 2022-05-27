@@ -1,0 +1,10 @@
+nome do arquivo                        |resumo
+---------------------------------------|--------
+casos_obtidos_doencas_preexistentes    |Base de cada pessoa por municipio que morreu; mostrando os sintomas
+bases-dados/caso.csv                   |mostra quantidade de casos, população total e mortes por estado, por dia
+bases-dados/obito-cartorio             |mostra quantos morrem e suas causas por cada estado, por dia(tem outras doenças além de covid)
+HIST_PAINEL_COVIDBR_2020_Parte1_20mai20|mostra qntd de casos por municipio, casos Novos,acumulados
+
+https://opendatasus.saude.gov.br/dataset/notificacoes-de-sindrome-gripal-leve-2022 | estado,sexo,idade,racaCor,evolucaoCaso,codigoLaboratorioPrimeiraDose?,codigoLaboratorioSegundaDose?
+casos_obtidos_doencas_preexistentes                                                | (idade,estado,sexo - regra de agrupamento),asma,cardiopatia,diaete,obesidade,down,imuno_depressao
+http://www.atlasbrasil.org.br/consulta/planilha                                    | Territorialidades,Média de anos de estudo 2017,IDHM Educação 2017,IDHM Longevidade 2017,IDHM Renda 2017,IDHM 2017
