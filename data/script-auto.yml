@@ -98,23 +98,23 @@ Resources:
       Tags:
         - Key: Name
           Value: !Sub ${AWS::StackName}-${Client}-public
-  S3Bucket:
+  S3BucketRaw:
       Type: 'AWS::S3::Bucket'
       DeletionPolicy: Retain
       Properties:
-        BucketName: !Sub ${AWS::StackName}-${Client}-raw-data
+        BucketName: !Sub ${AWS::StackName}-${Client}-data-raw
         AccessControl: Private
-  S3Bucket2:
+  S3BucketPreProcess:
     Type: 'AWS::S3::Bucket'
     DeletionPolicy: Retain
     Properties:
-      BucketName: !Sub ${AWS::StackName}-${Client}-data-transform
+      BucketName: !Sub ${AWS::StackName}-${Client}-data-preprocess
       AccessControl: Private       
-   S3Bucket3:
+  S3BucketClient:
       Type: 'AWS::S3::Bucket'
       DeletionPolicy: Retain
       Properties:
-        BucketName: !Sub ${AWS::StackName}-${Client}-raw-data
+        BucketName: !Sub ${AWS::StackName}-${Client}-data-client
         AccessControl: Private
   PublicRouteTableRouteInternet:
     DependsOn: [PublicRouteTable, InternetGateway]
