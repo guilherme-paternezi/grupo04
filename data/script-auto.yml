@@ -99,12 +99,12 @@ Resources:
         - Key: Name
           Value: !Sub ${AWS::StackName}-${Client}-public
   S3BucketRaw:
-      Type: 'AWS::S3::Bucket'
-      DeletionPolicy: Retain
-      Properties:
-        BucketName: !Sub ${AWS::StackName}-${Client}-bucket-data-raw
-        AccessControl: Private
-        PublicAccessBlockConfiguration: 
+    Type: 'AWS::S3::Bucket'
+    DeletionPolicy: Retain
+    Properties:
+      BucketName: !Sub ${AWS::StackName}-${Client}-bucket-data-raw
+      AccessControl: Private
+      PublicAccessBlockConfiguration: 
         BlockPublicAcls: true
         BlockPublicPolicy: true
         IgnorePublicAcls: true
