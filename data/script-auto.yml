@@ -102,20 +102,35 @@ Resources:
       Type: 'AWS::S3::Bucket'
       DeletionPolicy: Retain
       Properties:
-        BucketName: !Sub ${AWS::StackName}-${Client}-data-raw
+        BucketName: !Sub ${AWS::StackName}-${Client}-bucket-data-raw
         AccessControl: Private
+        PublicAccessBlockConfiguration: 
+        BlockPublicAcls: true
+        BlockPublicPolicy: true
+        IgnorePublicAcls: true
+        RestrictPublicBuckets: true
   S3BucketPreProcess:
     Type: 'AWS::S3::Bucket'
     DeletionPolicy: Retain
     Properties:
-      BucketName: !Sub ${AWS::StackName}-${Client}-data-preprocess
-      AccessControl: Private       
+      BucketName: !Sub ${AWS::StackName}-${Client}-bucket-data-preprocess
+      AccessControl: Private
+      PublicAccessBlockConfiguration: 
+        BlockPublicAcls: true
+        BlockPublicPolicy: true
+        IgnorePublicAcls: true
+        RestrictPublicBuckets: true       
   S3BucketClient:
       Type: 'AWS::S3::Bucket'
       DeletionPolicy: Retain
       Properties:
-        BucketName: !Sub ${AWS::StackName}-${Client}-data-client
+        BucketName: !Sub ${AWS::StackName}-${Client}-bucket-data-client
         AccessControl: Private
+        PublicAccessBlockConfiguration: 
+        BlockPublicAcls: true
+        BlockPublicPolicy: true
+        IgnorePublicAcls: true
+        RestrictPublicBuckets: true
   PublicRouteTableRouteInternet:
     DependsOn: [PublicRouteTable, InternetGateway]
     Type: AWS::EC2::Route
