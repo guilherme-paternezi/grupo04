@@ -12,3 +12,5 @@ def tokeniza(exp):
             continue
         tweetTreated += token + " "
     return tweetTreated
+
+
