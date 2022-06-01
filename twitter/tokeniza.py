@@ -1,4 +1,4 @@
-from utils.utils import stop_words, listProfanities
+from utils.utils import stop_words, listProfanities,remove_emoji,removeAcento
 
 PROFANITIES = listProfanities('./utils/profanidades-ptBr-engEua.txt')
 
@@ -11,5 +11,5 @@ def tokeniza(exp):
         if token.lower() in PROFANITIES:
             continue
         tweetTreated += token + " "
-    return tweetTreated
+    return removeAcento(remove_emoji(tweetTreated))
 
