@@ -10,14 +10,14 @@ def main():
     while option != QUIT:
         option = int(input('>>> Selecione uma opção \n 1 - Buscar por \"Corona Virus\" com limite máximo de 100 tweets:  \n 2 - Buscar passando parâmetros: \n 3 - Sair \n'))
         if option == 1:
-            url = 'https://api.twitter.com/2/tweets/search/recent?query=("Corona Virus") -is:retweet lang:pt&max_results=100&tweet.fields=author_id&expansions=author_id'
+            url = 'https://api.twitter.com/2/tweets/search/recent?query=("Corona Virus") -is:retweet lang:pt&max_results=100&tweet.fields=author_id,created_at&expansions=author_id'
         elif option == 2:
             query = input('>>> Buscar no twitter por: ')
             qtdTweets = int(input('>>> Quantidade máxima de tweets (máxima 100): '))
             if qtdTweets > 100 or qtdTweets < 1:
                 print('\nDigite um valor entre 1 e 100!\n')
                 continue
-            url = 'https://api.twitter.com/2/tweets/search/recent?query=("{}") -is:retweet lang:pt&max_results={}&tweet.fields=author_id&expansions=author_id'.format(query, qtdTweets)
+            url = 'https://api.twitter.com/2/tweets/search/recent?query=("{}") -is:retweet lang:pt&max_results={}&place.fields=&tweet.fields=author_id,created_at&expansions=author_id'.format(query, qtdTweets)
         elif option == 3:
             break
         else:
@@ -30,6 +30,8 @@ def main():
         
         tweetsWoTreated = ''
         tweetsTreated = ''
+
+        print(dados)
 
         if (dados['meta']['result_count']) > 0:
             for dado in dados['data']:
