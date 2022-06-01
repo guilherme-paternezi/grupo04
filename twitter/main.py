@@ -37,11 +37,11 @@ def main():
                 tweetsTreated += tk.tokeniza(str(dado['text'])) + '\n'
 
             f = open('./tweets/{}.txt'.format('coronaVirus' if query == '' else query), 'w')
-            with io.open('{}.txt'.format('coronaVirus' if query == '' else query), 'w', encoding='utf-8') as f:
+            with io.open('./tweets/{}.txt'.format('coronaVirus' if query == '' else query), 'w', encoding='utf-8') as f:
                 f.write(tweetsTreated)
 
             f = open('./tweets/{}WoTreatment.txt'.format('coronaVirus' if query == '' else query), 'w')
-            with io.open('{}WoTreatment.txt'.format('coronaVirus' if query == '' else query), 'w', encoding='utf-8') as f:
+            with io.open('./tweets/{}WoTreatment.txt'.format('coronaVirus' if query == '' else query), 'w', encoding='utf-8') as f:
                 f.write(tweetsWoTreated)
         else:
             print('\nNenhum tweet com esse tema foi encontrado!\n')
