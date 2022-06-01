@@ -1,4 +1,3 @@
-from os import remove
 from utils.utils import stop_words, listProfanities,remove_emoji,removeAcento
 PROFANITIES = listProfanities('./utils/profanidades-ptBr-engEua.txt')
 
