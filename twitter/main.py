@@ -31,6 +31,7 @@ def main():
         
         tweetsWoTreated = ''
         tweetsTreated = ''
+        nameOption = 'coronaVirus' if query == '' else query
 
         def existLocation():
             location = None
@@ -38,12 +39,12 @@ def main():
                     if user['id'] == dado['author_id'] and 'location' in user:
                         location = user['location'] 
                         return location
-
         
         if (dados['meta']['result_count']) > 0:
             index = 0
-            header = 'Tweet;Date;Location;Source;' + '\n'
-            tweetsTreated += header
+            if not os.path.exists('./{}Tweets/{}.csv'.format(nameOption, nameOption)):
+                header = 'Tweet;Date;Location;Source;' + '\n'
+                tweetsTreated += header
             for dado in dados['data']:
                 tweetsWoTreated += str(dado['text']) + '\n'
                 tweetsTreated += tk.tokeniza(str(dado['text'])) + ';'
@@ -52,24 +53,20 @@ def main():
                 if location == None:
                     tweetsTreated += 'LOCALIZACAO NAO INFORMADA' + ';'
                 else:
-                    tweetsTreated += existLocation() + ';'
+                    tweetsTreated += tk.tokeniza(existLocation()) + ';'
                 tweetsTreated += dado['source'] + ';' + '\n'
                 index += 1
                 
-
-            
             dir = './{}Tweets'.format('coronaVirus' if query == '' else query)  
             if not os.path.isdir(dir):
                 os.mkdir(dir)
 
-            nameOption = 'coronaVirus' if query == '' else query
-
-            f = open('./{}Tweets/{}.csv'.format(nameOption, nameOption), 'w')
-            with io.open('./{}Tweets/{}.csv'.format(nameOption, nameOption), 'w', encoding='utf-8') as f:
+            f = open('./{}Tweets/{}.csv'.format(nameOption, nameOption), 'a')
+            with io.open('./{}Tweets/{}.csv'.format(nameOption, nameOption), 'a', encoding='utf-8') as f:
                 f.write(tweetsTreated)
 
-            f = open('./{}Tweets/{}WoTreatment.txt'.format(nameOption, nameOption), 'w')
-            with io.open('./{}Tweets/{}WoTreatment.txt'.format(nameOption, nameOption), 'w', encoding='utf-8') as f:
+            f = open('./{}Tweets/{}WoTreatment.txt'.format(nameOption, nameOption), 'a')
+            with io.open('./{}Tweets/{}WoTreatment.txt'.format(nameOption, nameOption), 'a', encoding='utf-8') as f:
                 f.write(tweetsWoTreated)
         else:
             print('\nNenhum tweet com esse tema foi encontrado!\n')
